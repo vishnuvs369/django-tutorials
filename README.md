@@ -1,5 +1,7 @@
 # django-tutorials
 
+https://docs.djangoproject.com/en/3.2/intro/tutorial01/
+
 python -m django --version
 
 django-admin startproject demo  --creating a django project
@@ -11,3 +13,4 @@ python manage.py runserver -- for running
 python manage.py runserver 9000 --specific port
 
 py manage.py startapp products --create an app
+
