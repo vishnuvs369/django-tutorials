@@ -14,7 +14,7 @@ python manage.py runserver 9000 --specific port
 
 py manage.py startapp products --create an app
 
-
+pip install mysqlclient
 
 Database  Migrations--->
 
