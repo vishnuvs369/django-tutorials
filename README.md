@@ -14,3 +14,17 @@ python manage.py runserver 9000 --specific port
 
 py manage.py startapp products --create an app
 
+
+
+Database  Migrations--->
+
+py manage.py migrate   
+
+
+Add your app name in INSTALLED_APPS of settings.py
+
+py manage.py makemigrations <appname>
+
+Now, migrate to reflect the changes into the database.
+py manage.py migrate  
+
